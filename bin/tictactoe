@@ -23,5 +23,10 @@ elsif input == "2"
     game.play
     end
 end
+
+else input == "3"
+  puts "The first player will be X."
+    game = Game.new(player_1 = Players::Human.new("X"), player_2 = Players::Human.new("O"))
+    game.play
 end
 
