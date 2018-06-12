@@ -12,13 +12,13 @@ if input == "1"
   game.play
 
 elseif input == "2"
-  puts "If you would like to play first, please enter 1."
-  puts "If you would like to play second, plesae enter 2."
-  player = gets.strip
-    if player == "1"
+  puts "To play first, please enter 1."
+  puts "To play second, please enter 2."
+  player_input = gets.strip
+    if player_input == "1"
     game = Game.new(player_1 = Players::Human.new("X"), player_2 = Players::Computer.new("O"))
     game.play
-    if player == "2"
+    if player_input == "2"
     game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Human.new("O"))
     game.play
     end
