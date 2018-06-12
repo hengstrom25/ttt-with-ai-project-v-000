@@ -21,5 +21,6 @@ elseif input == "2"
   if player == "2"
    game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Human.new("O"))
   game.play
+  end
 end
 
