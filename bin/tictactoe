@@ -8,4 +8,4 @@ puts "To play computer simulation, please enter 1. To play against the computer,
 input = gets.strip
 
 if input == "0"
-
+game = Game.new 
