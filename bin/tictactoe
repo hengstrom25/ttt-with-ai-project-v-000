@@ -11,7 +11,7 @@ if input == "1"
   game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Computer.new("O"))
   game.play
 
-elseif input == "2"
+elsif input == "2"
   puts "To play first, please enter 1."
   puts "To play second, please enter 2."
   player_input = gets.strip
