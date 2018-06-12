@@ -8,8 +8,8 @@ puts "To play computer simulation, please enter 1. To play against the computer,
 input = gets.strip
 
 if input == "1"
-game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Computer.new("O"))
-game.play
+  game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Computer.new("O"))
+  game.play
 
 elseif input == "2"
   puts "If you would like to play first, please enter 1."
@@ -21,7 +21,5 @@ elseif input == "2"
   if player == "2"
    game = Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Human.new("O"))
   game.play
-  end
-
 end
 
