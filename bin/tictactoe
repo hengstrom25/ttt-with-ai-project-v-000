@@ -1,3 +1,8 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
+
+puts "Welcome to Tic Tac Toe!"
+puts "To play computer simulation, please enter 1. To play against the computer, please enter 2. To play against another player, please enter 3."
+
+
